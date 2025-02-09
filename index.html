@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comprovante de Venda</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .email-container {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .header {
+      background-color: #007BFF;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+    .content {
+      padding: 20px;
+    }
+    .details-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    .details-table th, .details-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    .details-table th {
+      background-color: #f8f8f8;
+    }
+    .footer {
+      background-color: #f8f8f8;
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+      color: #555;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <!-- Header -->
+    <div class="header">
+      <h1>Obrigado pela sua compra!</h1>
+      <p>Comprovante de venda #12345</p>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <p>Olá, <strong>Nome Teste</strong></p>
+      <p>Abaixo estão os detalhes da sua compra realizada em <strong>09 de fevereiro de 2025</strong>.</p>
+
+      <!-- Purchase details -->
+      <table class="details-table">
+        <tr>
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Preço Unitário</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <td>Fone Bluetooth Pro X</td>
+          <td>1</td>
+          <td>R$ 299,90</td>
+          <td>R$ 299,90</td>
+        </tr>
+        <tr>
+          <td>Capa Protetora Premium</td>
+          <td>1</td>
+          <td>R$ 79,90</td>
+          <td>R$ 79,90</td>
+        </tr>
+        <tr>
+          <td colspan="3" style="text-align: right; font-weight: bold;">Total:</td>
+          <td><strong>R$ 379,80</strong></td>
+        </tr>
+      </table>
+
+      <p>Forma de pagamento: <strong>Cartão de Crédito (**** 1234)</strong></p>
+
+      <p>Seu pedido será enviado para: <br>
+         Rua Exemplo, 123 - Centro<br>
+         Belo Horizonte, MG, CEP 30100-000
+      </p>
+
+      <a href="#" class="btn">Visualizar Pedido</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Se você tiver dúvidas sobre seu pedido, entre em contato com nosso suporte.</p>
+      <p>&copy; 2025 Sua Loja Online. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</body>
+</html>
